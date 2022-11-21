@@ -99,3 +99,44 @@ Game Framework provides the following 19 builtin modules, and more will be devel
 18. **UI** - provides features to manage user interfaces and groups of UIs, such as showing or hiding, activating or deactivating, and depth changing. No matter the user uses the builtin uGUI in Unity or other UI plugins (NGUI, for example), he only needs to subclass 'UIFormLogic' and implement his own UI logic. The UIs could avoid being destroyed instantly after use, and hence be recycled for reuse.
 
 19. **Web Request** - provides features of short connections, supports GET and POST methods to send requests to the server and acquire the response data, and allows the user to send simultaneous requests to different servers.
+
+## System Requirements
+Unity 2020.3.0 or later versions
+
+## How to install
+
+
+<details>
+<summary>Add from OpenUPM <em>| via scoped registry, recommended</em></summary>
+
+This package is available on OpenUPM: https://openupm.com/packages/com.hqcchina.gameframework
+
+To add it the package to your project:
+
+- open `Edit/Project Settings/Package Manager`
+- add a new Scoped Registry:
+  ```
+  Name: OpenUPM
+  URL:  https://package.openupm.com/
+  Scope(s): com.hqcchina
+            com.demigiant
+  ```
+- click <kbd>Save</kbd>
+- open Package Manager
+- click <kbd>+</kbd>
+- select <kbd>Add from Git URL</kbd>
+- paste `com.hqcchina.gameframework`
+- click <kbd>Add</kbd>
+</details>
+
+<details>
+<summary>Add from GitHub | <em>not recommended, no updates :( </em></summary>
+
+You can also add it directly from GitHub on Unity 2020.3+. Note that you won't be able to receive updates through Package Manager this way, you'll have to update manually.
+
+- open Package Manager
+- click <kbd>+</kbd>
+- select <kbd>Add from Git URL</kbd>
+- paste `https://github.com/hqcchina/GameFramework.git`
+- click <kbd>Add</kbd>
+</details>
